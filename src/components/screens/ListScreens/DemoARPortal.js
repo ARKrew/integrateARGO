@@ -6,8 +6,8 @@ const DemoARPortal = () => {
   return (
     <View>
       <Header headerText='Demo' />
-      <Text>Demo AR Portal</Text>
-      <Text>Insert Demo AR Portal code here</Text>
+      <Text>xxx</Text>
+      <Text>xxx</Text>
     </View>
   );
 };

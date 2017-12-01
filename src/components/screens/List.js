@@ -13,7 +13,7 @@ class List extends Component {
     }
   }
   pressedAR = () => {
-    this.props.navigation.navigate('ARPortal');
+    this.props.navigation.navigate('MainSceneAR');
   };
 
   pressedDemo = () => {
@@ -30,7 +30,7 @@ class List extends Component {
           <Button onPress={this.pressedDemo}>Demo AR Portal</Button>
         </CardSection>
         <CardSection>
-          <Button onPress={this.pressedAR}>AR Portal</Button>
+          <Button onPress={this.pressedAR}>HelloWorld</Button>
         </CardSection>
       </View>
     );
